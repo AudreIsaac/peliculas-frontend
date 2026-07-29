@@ -42,8 +42,8 @@ export default function PeliculaCard({ pelicula, onDelete }) {
                     </Box>
                 )}
                 <Box className="pelicula-card__overlay">
-                    <Typography variant="h6" className="pelicula-card__title">
-                        {pelicula.titulo}
+                    <Typography variant="body2" className="pelicula-card__director">
+                        Dir. {pelicula.director_nombre || 'Desconocido'}
                     </Typography>
                     <Typography variant="body2" className="pelicula-card__meta">
                         {pelicula.anio_estreno} · {pelicula.genero}

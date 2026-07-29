@@ -54,3 +54,9 @@
     background-color: #1f1f1f;
     border-top: 1px solid #2c2c2c;
 }
+
+.pelicula-card__director {
+    color: #f5c518;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
